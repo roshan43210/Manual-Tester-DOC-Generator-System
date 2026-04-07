@@ -1,189 +1,70 @@
-# 🚀 Manual Tester – Automated QA Document Generator
+# Getting Started with Create React App
 
-## 📌 Overview
-Manual Tester is a full-stack web application that helps QA engineers automatically generate professional testing documents.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Users can fill forms, upload attachments, and download documents in **PDF, Word, or Image format**.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## ✨ Features
+### `npm start`
 
-### 🧪 Test Plan Generator
-- Generate structured test plans
-- Includes:
-  - Project Name
-  - Version
-  - Scope
-  - Objectives
-  - Test Environment
-  - Schedule
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 📋 Test Case Generator (Table Format)
-- Generates test cases in table format
-- Fields:
-  - Test Case ID
-  - Description
-  - Steps
-  - Expected Result
-  - Actual Result
-  - Status
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 🐞 Bug Report Generator (Table Format)
-- Professional bug report format
-- Fields:
-  - Bug ID
-  - Summary
-  - Severity
-  - Priority
-  - Steps to Reproduce
-  - Assigned To
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 📎 Attachments
-- Upload screenshots/files
-- Images included in generated documents
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 📄 Export Options
-- PDF (with tables)
-- Word (.docx)
-- Image (PNG)
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### 👀 Preview Feature
-- Preview documents before downloading
-- Supports PDF and Image preview
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### 🎨 UI Features
-- Modern React UI
-- Responsive design
-- Animations and gradients
-- Tab-based navigation
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## 🏗️ Tech Stack
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Frontend
-- React.js
-- HTML, CSS, JavaScript
-- Axios
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Backend
-- Node.js
-- Express.js
+### Code Splitting
 
-### Libraries
-- pdfkit + pdfkit-table
-- docx
-- multer
-- puppeteer
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-## 📂 Project Structure
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```
-ManualTester/
-│
-├── backend/
-│   ├── index.js
-│   ├── uploads/
-│   └── generated/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-└── README.md
-```
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## ⚙️ Setup Instructions
+### Advanced Configuration
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/manual-tester.git
-cd manual-tester
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
----
+### Deployment
 
-### 2. Run Backend
-```bash
-cd backend
-npm install
-node index.js
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Backend runs at:
-```
-http://localhost:5000
-```
+### `npm run build` fails to minify
 
----
-
-### 3. Run Frontend
-```bash
-cd frontend
-npm install
-npm start
-```
-
-Frontend runs at:
-```
-http://localhost:3000
-```
-
----
-
-## 🚀 Usage
-
-1. Select document type (Test Plan / Test Case / Bug Report)
-2. Fill in required fields
-3. Upload attachments (optional)
-4. Select format (PDF / Word / Image)
-5. Click **Generate Document**
-6. Preview and download
-
----
-
-## 💡 Future Improvements
-- User authentication
-- Cloud storage
-- Dashboard for reports
-- AI-based test suggestions
-- PWA support
-
----
-
-## 🤝 Contributing
-Feel free to fork this repository and contribute.
-
----
-
-## 📜 License
-MIT License
-
----
-
-## 👨‍💻 Author
-Roshan Khawash  
-GitHub: https://github.com/roshan43210
-
----
-
-## ⭐ Support
-If you like this project, give it a ⭐ on GitHub!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
